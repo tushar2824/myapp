@@ -25,6 +25,8 @@ const navbar = () => {
               <NavDropdown.Item href="#action/3.4">
                 Puzzle
               </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Girls Games</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.6">Casual</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

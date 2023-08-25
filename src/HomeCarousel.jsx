@@ -8,37 +8,18 @@ const HomeCarousel = () => {
     <div>
        <Carousel>
       <Carousel.Item>
-        <img className='imgcaro' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg' text="HAWA MAHAL" />
+        <img className='imgcaro' src='https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_39/3509143/210929-gaming-front-seo-2x1.jpg' text="" />
         <Carousel.Caption>
-          <h3>HAWA MAHAL</h3>
-          <p>Best Historical Place to visit
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img  className='imgcaro' src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c4/72/f6/jal-mahal-jaipur-tour.jpg?w=1200&h=-1&s=1' text="JAL MAHAL" />
+        <img  className='imgcaro' src='https://www.kreedon.com/wp-content/uploads/2022/10/high-gaming-pc-696x464.jpg' text="" />
         <Carousel.Caption>
-          <h3>JAL MAHAL</h3>
-          <p>Best Historical Place to visit
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img  className='imgcaro' src='https://jaipurtourism.co.in/images/places-to-visit/header/jantar-mantar-jaipur-entry-fee-timings-holidays-reviews-header.jpg' text="JAL MAHAL" />
+        <img  className='imgcaro' src='https://i.pinimg.com/736x/18/57/42/1857428ec9f5aff9c167c2a3abaaf4d5.jpg' text="" />
         <Carousel.Caption>
-          <h3>JANTAR MANTAR</h3>
-          <p>Best Historical Place to visit
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img className='imgcaro' src='https://assets-news.housing.com/news/wp-content/uploads/2021/08/17181618/All-about-the-City-Palace-Jaipur-A-classic-symbol-of-different-architectural-styles-FB-1200x700-compressed.jpg' text="CITY PALACE" />
-        <Carousel.Caption>
-          <h3>CITY PALACE</h3>
-          <p>
-          Best Historical Place to visit
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
