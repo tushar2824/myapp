@@ -13,7 +13,7 @@ const data =[
     },
     {
         title:'VALORANT',
-        imgurl : 'https://cdn.vox-cdn.com/thumbor/lM6S1jVTBrNEUQ0eEjf7eJBltnQ=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22553557/VALORANT_YR1_KeyArt_4k_3_.jpg',
+        imgurl : 'https://m.media-amazon.com/images/I/61Iljj9cOOL.jpg',
         desc :'Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows. Teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by a release on June 2, 2020.'
         
     },
