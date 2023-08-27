@@ -3,56 +3,60 @@ import './App.css';
 import NavBar from "./NavBar";
 import HomeCarousel from './HomeCarousel';
 import Imgcard from './Imgcard';
+import ParentComponent from './ParentComponent';
+import AComponent from './AComponent';
 // import data from './data';
 
-const ncard=(val) =>{
-  return(
-    <Imgcard 
-      title={val.title}
-      imgurl={val.images[0]}
-      desc={val.desc}
-    />
-  )
-}
+// const ncard=(val) =>{
+//   return(
+//     <Imgcard 
+//       title={val.title}
+//       imgurl={val.images[0]}
+//       desc={val.desc}
+//     />
+//   )
+// }
 function App() {
 
-  const [Data,SetData]=useState([]);
+  // const [Data,SetData]=useState([]);
   
-  useEffect(()=>{
-    const fetchdata = async()=>{
-      try {
-         const response  = await fetch ("https://dummyjson.com/products");
-         const Data = await response.json();
-         console.log(Data.products)
-         SetData(Data.products);
+  // useEffect(()=>{
+  //   const fetchdata = async()=>{
+  //     try {
+  //        const response  = await fetch ("https://dummyjson.com/products");
+  //        const Data = await response.json();
+  //        console.log(Data.products)
+  //        SetData(Data.products);
 
-        //  const dataArray = Object.keys(fetchdata).
-        //  map((id) =>({
-        //   id,
-        //   ...fetchdata[id],
-        //  }));
-      }
-      catch(error){
-      console.log("Error occured", error);
-      }
-    };
-    fetchdata();
-  },[]);
+  //       //  const dataArray = Object.keys(fetchdata).
+  //       //  map((id) =>({
+  //       //   id,
+  //       //   ...fetchdata[id],
+  //       //  }));
+  //     }
+  //     catch(error){
+  //     console.log("Error occured", error);
+  //     }
+  //   };
+  //   fetchdata();
+  // },[]);
 
   return  (
-    <div>
-       <NavBar />
-       <HomeCarousel />
-       <div className='projectcard'>
-       {
-        Data.map((val,index) =>(
-          <div key={val.id}className='col-md-3'>
-            {ncard(val)}
-          </div>
-        ))
-       }
-       </div>
-    </div>
+    //     <div>
+    //        <NavBar />
+    //        <HomeCarousel />
+    //        <div className='projectcard'>
+    //        {
+      //         Data.map((val,index) =>(
+        //           <div key={val.id}className='col-md-3'>
+        //             {ncard(val)}
+        //           </div>
+        //         ))
+        //        }
+        //        </div>
+        //     </div>
+        // <ParentComponent />
+        <AComponent />
   );
 }
 

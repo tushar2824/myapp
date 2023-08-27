@@ -9,7 +9,7 @@ const navbar = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"><b>𝓖𝓐𝓜𝓘𝓝𝓖 𝓓𝓤𝓝𝓘𝓨𝓐</b></Navbar.Brand>
+        <Navbar.Brand href="#home"><b>𝔾𝔸𝕄𝕀ℕ𝔾 𝕎𝕆ℝ𝕃𝔻</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

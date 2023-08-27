@@ -16,11 +16,11 @@ const Imgcard = (val) => {
   return (
     <div>
       <Card style={{ width: '18rem' , height:'20rm' }}>
-      <Card.Img variant="top" src={val.imgurl} style={{width:"18rem" , height:"15rem"}} />
+      <Card.Img variant="top" src={val.imgurl} style={{width:"18rem" , height:"15rem"}} /> 
       <Card.Body>
-        <Card.Title>{val.title}</Card.Title>
-        <Card.Text>{val.desc}
-        </Card.Text>
+      <Card.Title>{val.title}</Card.Title>
+      <Card.Text>{val.desc} </Card.Text>
+
         <Button className='btn' onClick={handleclick}variant="primary">+</Button>{count}
         <Button className='btn' onClick={handledelete}variant="primary">-</Button>
       </Card.Body>
